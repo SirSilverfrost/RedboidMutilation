@@ -64,6 +64,30 @@ namespace RedboidMutilation
 			recipe.AddTile(TileID.MythrilAnvil);
 			recipe.SetResult(ItemID.StaffoftheFrostHydra);
 			recipe.AddRecipe();
+
+
+			recipe = new ModRecipe(this);
+			recipe.AddIngredient(ItemID.ManaCrystal, 3);
+			recipe.AddIngredient(ItemID.Glass, 20);
+			recipe.AddTile(TileID.CrystalBall);
+			recipe.SetResult(ItemID.MagicMirror);
+			recipe.AddRecipe();
+
+
+			recipe = new ModRecipe(this);
+			recipe.AddIngredient(ItemID.Bone, 100);
+			recipe.AddIngredient(ItemID.GoldBar, 10);
+			recipe.AddTile(TileID.BoneWelder);
+			recipe.SetResult(ItemID.LockBox);
+			recipe.AddRecipe();
+
+
+			recipe = new ModRecipe(this);
+			recipe.AddIngredient(ItemID.Bone, 100);
+			recipe.AddIngredient(ItemID.PlatinumBar, 10);
+			recipe.AddTile(TileID.BoneWelder);
+			recipe.SetResult(ItemID.LockBox);
+			recipe.AddRecipe();
 		}
 	}
 }
