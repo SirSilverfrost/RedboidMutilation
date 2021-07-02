@@ -1,0 +1,5 @@
+-You can now craft vanilla Dungeon Biome chest weapons.
+-You can now craft the Hotline fishing hook in hardmode.
+-You can now *recycle* Chlorophyte armor for 35% of its original cost.
+-You can now craft the Magic mirror in hardmode.
+-You can now craft dungeon Golden Lockboxes.
