@@ -9,6 +9,8 @@ namespace RedboidMutilation
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(this);
+			Mod thorium = ModLoader.GetMod("ThoriumMod");
+
 			recipe.AddIngredient(ItemID.HellstoneBar, 15);
 			recipe.AddIngredient(ItemID.Coral, 10);
 			recipe.AddIngredient(ItemID.SandBlock, 30);
@@ -16,8 +18,6 @@ namespace RedboidMutilation
 			recipe.AddTile(TileID.Hellforge);
 			recipe.SetResult(ItemID.SuperAbsorbantSponge);
 			recipe.AddRecipe();
-
-
 
 			recipe = new ModRecipe(this);
 			recipe.AddIngredient(ItemID.HellstoneBar, 14);
@@ -139,6 +139,40 @@ namespace RedboidMutilation
 			recipe.needWater = true;
 			recipe.SetResult(ItemID.WaterCandle);
 			recipe.AddRecipe();
+
+			//Adds a recipe for Pharaoh's Slab
+			recipe = new ModRecipe(this);
+			if (thorium != null) 
+			{
+			recipe.AddIngredient(thorium.ItemType("DesertBiomeKey"));
+			recipe.AddIngredient(ItemID.Ectoplasm, 15);
+			recipe.AddTile(TileID.MythrilAnvil);
+			recipe.SetResult(thorium.ItemType("PharaohsSlab"));
+			recipe.AddRecipe();
+			}
+			
+			//Adds a recipe for Phoenix Staff
+			recipe = new ModRecipe(this);
+			if (thorium != null) 
+			{
+			recipe.AddIngredient(thorium.ItemType("UnderworldBiomeKey"));
+			recipe.AddIngredient(ItemID.Ectoplasm, 15);
+			recipe.AddTile(TileID.MythrilAnvil);
+			recipe.SetResult(thorium.ItemType("PheonixStaff"));
+			recipe.AddRecipe();
+			}
+			
+			//Adds a recipe for Fishbone
+			recipe = new ModRecipe(this);
+			if (thorium != null) 
+			{
+			recipe.AddIngredient(thorium.ItemType("AquaticDepthsBiomeKey"));
+			recipe.AddIngredient(ItemID.Ectoplasm, 15);
+			recipe.AddTile(TileID.MythrilAnvil);
+			recipe.SetResult(thorium.ItemType("Fishbone"));
+			recipe.AddRecipe();
+			}
+
 		}
 	}
 }
