@@ -159,7 +159,31 @@ namespace RedboidMutilation
 			recipe.SetResult(thorium.ItemType("Fishbone"));
 			recipe.AddRecipe();
 			}
-      
+
+			//Adds a recipe for Forest Ocarina
+			recipe = new ModRecipe(this);
+			if (thorium != null)
+			{
+			recipe.AddIngredient(ItemID.ClayBlock, 25);
+			recipe.AddIngredient(ItemID.JungleSpores, 15);
+			recipe.AddIngredient(thorium.ItemType("ArcaneDust"), 20);
+			recipe.AddTile(TileID.Anvils);
+			recipe.SetResult(thorium.ItemType("ForestOcarina"));
+			recipe.AddRecipe();
+			}
+
+
+			//Adds a recipe for The Digester
+			recipe = new ModRecipe(this);
+			if (thorium != null)
+			{
+		    recipe.AddIngredient(ItemID.JungleSpores, 15);
+			recipe.AddIngredient(thorium.ItemType("LifeQuartz"), 20);
+			recipe.AddIngredient(thorium.ItemType("ArcaneDust"), 10);
+			recipe.AddTile(TileID.Anvils);
+			recipe.SetResult(thorium.ItemType("TheDigester"));
+			recipe.AddRecipe();
+			}
 		}
 	}
 }
