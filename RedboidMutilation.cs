@@ -123,22 +123,6 @@ namespace RedboidMutilation
 			recipe.AddTile(TileID.LihzahrdFurnace);
 			recipe.SetResult(ItemID.ChlorophyteBar, 4);
 			recipe.AddRecipe();
-
-
-			recipe = new ModRecipe(this);
-			recipe.AddIngredient(ItemID.Candle);
-			recipe.AddTile(TileID.CrystalBall);
-			recipe.needWater = true;
-			recipe.SetResult(ItemID.WaterCandle);
-			recipe.AddRecipe();
-
-
-			recipe = new ModRecipe(this);
-			recipe.AddIngredient(ItemID.PlatinumCandle);
-			recipe.AddTile(TileID.CrystalBall);
-			recipe.needWater = true;
-			recipe.SetResult(ItemID.WaterCandle);
-			recipe.AddRecipe();
 		}
 	}
 }
