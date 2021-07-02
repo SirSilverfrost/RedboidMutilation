@@ -21,7 +21,7 @@ namespace RedboidMutilation
 
 			recipe = new ModRecipe(this);
 			recipe.AddIngredient(ItemID.HellstoneBar, 14);
-			recipe.AddTile(TileID.Hellforge);
+			recipe.AddTile(TileID.MythrilAnvil);
 			recipe.SetResult(ItemID.HotlineFishingHook);
 			recipe.AddRecipe();
 
@@ -76,7 +76,7 @@ namespace RedboidMutilation
 
 			recipe = new ModRecipe(this);
 			recipe.AddIngredient(ItemID.Bone, 100);
-			recipe.AddIngredient(ItemID.GoldBar, 10);
+			recipe.AddIngredient(ItemID.GoldBar, 25);
 			recipe.AddTile(TileID.BoneWelder);
 			recipe.SetResult(ItemID.LockBox);
 			recipe.AddRecipe();
@@ -84,9 +84,60 @@ namespace RedboidMutilation
 
 			recipe = new ModRecipe(this);
 			recipe.AddIngredient(ItemID.Bone, 100);
-			recipe.AddIngredient(ItemID.PlatinumBar, 10);
+			recipe.AddIngredient(ItemID.PlatinumBar, 25);
 			recipe.AddTile(TileID.BoneWelder);
 			recipe.SetResult(ItemID.LockBox);
+			recipe.AddRecipe();
+
+
+			recipe = new ModRecipe(this);
+			recipe.AddIngredient(ItemID.ChlorophyteMask);
+			recipe.AddTile(TileID.LihzahrdFurnace);
+			recipe.SetResult(ItemID.ChlorophyteBar, 4);
+			recipe.AddRecipe();
+
+
+			recipe = new ModRecipe(this);
+			recipe.AddIngredient(ItemID.ChlorophytePlateMail);
+			recipe.AddTile(TileID.LihzahrdFurnace);
+			recipe.SetResult(ItemID.ChlorophyteBar, 8);
+			recipe.AddRecipe();
+
+
+			recipe = new ModRecipe(this);
+			recipe.AddIngredient(ItemID.ChlorophyteGreaves);
+			recipe.AddTile(TileID.LihzahrdFurnace);
+			recipe.SetResult(ItemID.ChlorophyteBar, 6);
+			recipe.AddRecipe();
+
+
+			recipe = new ModRecipe(this);
+			recipe.AddIngredient(ItemID.ChlorophyteHelmet);
+			recipe.AddTile(TileID.LihzahrdFurnace);
+			recipe.SetResult(ItemID.ChlorophyteBar, 4);
+			recipe.AddRecipe();
+
+
+			recipe = new ModRecipe(this);
+			recipe.AddIngredient(ItemID.ChlorophyteHeadgear);
+			recipe.AddTile(TileID.LihzahrdFurnace);
+			recipe.SetResult(ItemID.ChlorophyteBar, 4);
+			recipe.AddRecipe();
+
+
+			recipe = new ModRecipe(this);
+			recipe.AddIngredient(ItemID.Candle);
+			recipe.AddTile(TileID.CrystalBall);
+			recipe.needWater = true;
+			recipe.SetResult(ItemID.WaterCandle);
+			recipe.AddRecipe();
+
+
+			recipe = new ModRecipe(this);
+			recipe.AddIngredient(ItemID.PlatinumCandle);
+			recipe.AddTile(TileID.CrystalBall);
+			recipe.needWater = true;
+			recipe.SetResult(ItemID.WaterCandle);
 			recipe.AddRecipe();
 		}
 	}
