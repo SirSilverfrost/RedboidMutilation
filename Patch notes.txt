@@ -1,3 +1,7 @@
+V. O.2
+-Added the Rusted Hamaxe, rarely dropped by Undead Miners.
+
+V. 0.1
 -You can now craft the Super Absorbant Sponge.
 -You can now craft vanilla and Thorium Dungeon Biome chest weapons with their respective keys.
 -You can now craft the Hotline Fishing Hook in hardmode.
