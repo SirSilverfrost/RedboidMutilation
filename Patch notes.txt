@@ -1,5 +1,12 @@
--You can now craft vanilla and Thorium Dungeon Biome chest weapons.
--You can now craft the Hotline fishing hook in hardmode.
--You can now *recycle* Chlorophyte armor for 35% of its original cost.
--You can now craft the Magic mirror in hardmode.
--You can now craft dungeon Golden Lockboxes.
+V. O.2
+-Added the Rusted Hamaxe, rarely dropped by Undead Miners.
+
+V. 0.1
+-You can now craft the Super Absorbant Sponge.
+-You can now craft vanilla and Thorium Dungeon Biome chest weapons with their respective keys.
+-You can now craft the Hotline Fishing Hook in hardmode.
+-You can now *recycle* Chlorophyte armor pieces for 35% of their original cost.
+-You can now craft the Magic Mirror in hardmode.
+-You can now craft dungeon Lockboxes.
+-You can now craft The Digester, normally found inside ivy chests.
+-You can now craft the Forest Ocarina, normally found inside ivy chests.
