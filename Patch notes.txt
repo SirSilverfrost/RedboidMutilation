@@ -1,7 +1,10 @@
-V. O.2
--Added the Rusted Hamaxe, rarely dropped by Undead Miners.
+V.0.3
+-The four Celestial pillars now drop Expert Treasure Bags that contains their respective fragments
 
-V. 0.1
+V.0.2
+-Added Rusted Hamaxe, rarely dropped by Undead Miners
+
+V.0.1
 -You can now craft the Super Absorbant Sponge.
 -You can now craft vanilla and Thorium Dungeon Biome chest weapons with their respective keys.
 -You can now craft the Hotline Fishing Hook in hardmode.

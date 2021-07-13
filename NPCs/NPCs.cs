@@ -13,7 +13,56 @@ namespace RedboidMutilation.NPCs
 				if (Main.rand.NextFloat() < .1200f)
 					Item.NewItem(npc.getRect(), mod.ItemType("RustedHamaxe"));
 			}
-			// Addtional if statements here if you would like to add drops to other vanilla npc.
+			if (npc.type == NPCID.LunarTowerSolar)
+			{
+				if (Main.expertMode)
+				npc.DropItemInstanced(npc.position, npc.Size, mod.ItemType("SolarBag"));
+			}
+			if (npc.type == NPCID.LunarTowerNebula)
+			{
+				if (Main.expertMode)
+					npc.DropItemInstanced(npc.position, npc.Size, mod.ItemType("NebulaBag"));
+			}
+			if (npc.type == NPCID.LunarTowerVortex)
+			{
+				if (Main.expertMode)
+					npc.DropItemInstanced(npc.position, npc.Size, mod.ItemType("VortexBag"));
+			}
+			if (npc.type == NPCID.LunarTowerStardust)
+			{
+				if (Main.expertMode)
+					npc.DropItemInstanced(npc.position, npc.Size, mod.ItemType("StardustBag"));
+			}
+		}
+		public override bool PreNPCLoot(NPC npc)
+		{
+			if (npc.type == NPCID.LunarTowerSolar)
+			{
+				if (Main.expertMode)
+				NPCLoader.blockLoot.Add(ItemID.FragmentSolar);
+			}
+			
+		
+		    if (npc.type == NPCID.LunarTowerNebula)
+		    {
+				if (Main.expertMode)
+				NPCLoader.blockLoot.Add(ItemID.FragmentNebula);
+	        }
+			
+
+			if (npc.type == NPCID.LunarTowerVortex)
+			{
+				if (Main.expertMode)
+					NPCLoader.blockLoot.Add(ItemID.FragmentVortex);
+			}
+			
+
+			if (npc.type == NPCID.LunarTowerStardust)
+			{
+				if (Main.expertMode)
+					NPCLoader.blockLoot.Add(ItemID.FragmentStardust);
+			}
+			return true;
 		}
 	}
 }
