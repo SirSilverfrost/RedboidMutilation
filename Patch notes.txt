@@ -1,5 +1,6 @@
 V.0.3
 -The four Celestial pillars now drop Expert Treasure Bags that contains their respective fragments
+-Added Celestial Masks.
 
 V.0.2
 -Added Rusted Hamaxe, rarely dropped by Undead Miners
