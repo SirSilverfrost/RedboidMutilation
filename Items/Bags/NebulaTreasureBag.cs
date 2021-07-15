@@ -31,8 +31,10 @@ namespace RedboidMutilation.Items.Bags
 
         public override void RightClick(Player player)
         {
+            Mod Calamity = ModLoader.GetMod("CalamityMod");
             player.TryGettingDevArmor();
-            player.QuickSpawnItem(ItemID.FragmentNebula, 30 + Main.rand.Next(60)); // 5, 6, or 7);
+            if (Calamity == null)
+            player.QuickSpawnItem(ItemID.FragmentNebula, 30 + Main.rand.Next(60)); // 5, 6, or 7)
             if (Main.rand.Next(7) < 1) // a 1 in 7 chance
             player.QuickSpawnItem(ModContent.ItemType<PredictorMask>());
         }
