@@ -30,6 +30,5 @@ namespace RedboidMutilation.Items.Vanity
 			recipe.SetResult(this);
 			recipe.AddRecipe();
 		}
-    }
+	}
 }
-

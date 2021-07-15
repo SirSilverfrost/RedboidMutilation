@@ -23,6 +23,6 @@ namespace RedboidMutilation.Items.Vanity
 			recipe.AddTile(TileID.Anvils);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
-		}
-    }
+                 }
+         }
 }

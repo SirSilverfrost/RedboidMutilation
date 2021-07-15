@@ -37,6 +37,10 @@ namespace RedboidMutilation.Items.Bags
             player.QuickSpawnItem(ItemID.FragmentStardust, 30 + Main.rand.Next(60)); // 5, 6, or 7);
             if (Main.rand.Next(7) < 1) // a 1 in 7 chance
             player.QuickSpawnItem(ModContent.ItemType<StargazerMask>());
-        } 
+            if (Calamity != null)
+            player.QuickSpawnItem(ItemID.FragmentStardust, 5 + Main.rand.Next(10));
+            if (Main.rand.Next(7) < 1) // a 1 in 7 chance
+            player.QuickSpawnItem(ModContent.ItemType<StargazerMask>());
+        }
     }
 }

@@ -11,7 +11,7 @@ namespace RedboidMutilation
 			
 			ModRecipe recipe = new ModRecipe(this);
 			Mod thorium = ModLoader.GetMod("ThoriumMod");
-
+			
 			//Adds a recipe for Super Absorbant Sponge
 			recipe.AddIngredient(ItemID.HellstoneBar, 15);
 			recipe.AddIngredient(ItemID.Coral, 10);
@@ -177,7 +177,7 @@ namespace RedboidMutilation
 			recipe = new ModRecipe(this);
 			if (thorium != null)
 			{
-		    recipe.AddIngredient(ItemID.JungleSpores, 15);
+		        recipe.AddIngredient(ItemID.JungleSpores, 15);
 			recipe.AddIngredient(thorium.ItemType("LifeQuartz"), 20);
 			recipe.AddIngredient(thorium.ItemType("ArcaneDust"), 10);
 			recipe.AddTile(TileID.Anvils);
