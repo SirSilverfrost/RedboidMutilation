@@ -1,3 +1,9 @@
+<<<<<<< Updated upstream
+=======
+V.0.4  + Beautiful Update +
+-Added 23 Vanity items.
+
+>>>>>>> Stashed changes
 V.0.3
 -The four Celestial pillars now drop Expert Treasure Bags that contains their respective fragments.
 -Added Celestial Masks.

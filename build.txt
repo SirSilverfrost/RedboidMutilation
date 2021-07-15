@@ -1,3 +1,7 @@
 displayName = Redboid Mutilation
 author = Bambino & SirSilverfrost
+<<<<<<< Updated upstream
 version = 0.3
+=======
+version = 0.4
+>>>>>>> Stashed changes
