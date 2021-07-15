@@ -16,10 +16,7 @@ namespace RedboidMutilation.Items.Weapons
 			item.melee = true;
 			item.width = 54;
 			item.height = 50;
-<<<<<<< Updated upstream
 			item.scale = .8f;
-=======
->>>>>>> Stashed changes
 			item.knockBack = 6;
 			item.value = 10000;
 			item.rare = ItemRarityID.Green;
