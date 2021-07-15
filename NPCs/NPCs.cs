@@ -13,14 +13,11 @@ namespace RedboidMutilation.NPCs
 				if (Main.rand.NextFloat() < .1200f)
 					Item.NewItem(npc.getRect(), mod.ItemType("RustedHamaxe"));
 			}
-<<<<<<< Updated upstream
-=======
 			if (npc.type ==NPCID.Squid)
 			{
 				if (Main.rand.NextFloat() < .0500f)
 					Item.NewItem(npc.getRect(), mod.ItemType("MoonLordLegs"));
 			}
->>>>>>> Stashed changes
 			if (npc.type == NPCID.LunarTowerSolar)
 			{
 				if (Main.expertMode)
