@@ -42,4 +42,3 @@ namespace RedboidMutilation.Items.Bags
         }
     }
 }
-}
