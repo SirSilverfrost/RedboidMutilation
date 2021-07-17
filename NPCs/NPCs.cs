@@ -13,6 +13,11 @@ namespace RedboidMutilation.NPCs
 				if (Main.rand.NextFloat() < .1200f)
 					Item.NewItem(npc.getRect(), mod.ItemType("RustedHamaxe"));
 			}
+			if (npc.type == NPCID.UndeadViking)
+			{
+				if (Main.rand.NextFloat() < .0500f)
+					Item.NewItem(npc.getRect(), mod.ItemType("RustedHamaxe"));
+			}
 			if (npc.type ==NPCID.Squid)
 			{
 				if (Main.rand.NextFloat() < .0500f)
