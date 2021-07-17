@@ -1,3 +1,5 @@
+V.0.5  Terra Update
+-Added the Terra item line.
 
 V.0.4  + Beautiful Update +
 -Added 23 Vanity items.
