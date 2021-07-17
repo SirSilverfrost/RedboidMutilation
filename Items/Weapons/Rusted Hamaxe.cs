@@ -8,7 +8,7 @@ namespace RedboidMutilation.Items.Weapons
 	{
 		public override void SetStaticDefaults()
 		{
-			Tooltip.SetDefault("This ancient tool is showing its age, yet it still looks strong");
+			Tooltip.SetDefault("'This ancient tool is showing its age' \n'You might be able to remove the rust...'");
 		}
 
 		public override void SetDefaults()
