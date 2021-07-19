@@ -18,6 +18,21 @@ namespace RedboidMutilation.NPCs
 				if (Main.rand.NextFloat() < .0500f)
 					Item.NewItem(npc.getRect(), mod.ItemType("RustedHamaxe"));
 			}
+			if (npc.type == NPCID.CochinealBeetle)
+			{
+				if (NPC.downedBoss3 == true && Main.rand.NextFloat() < .1000f)
+					Item.NewItem(npc.getRect(), mod.ItemType("ScarabFishingPole"));
+			}
+			if (npc.type == NPCID.LacBeetle)
+			{
+				if (NPC.downedBoss3 == true && Main.rand.NextFloat() < .1000f)
+					Item.NewItem(npc.getRect(), mod.ItemType("ScarabFishingPole"));
+			}
+			if (npc.type == NPCID.CyanBeetle)
+			{
+				if (NPC.downedBoss3 == true && Main.rand.NextFloat() < .1000f)
+					Item.NewItem(npc.getRect(), mod.ItemType("ScarabFishingPole"));
+			}
 			if (npc.type ==NPCID.Squid)
 			{
 				if (Main.rand.NextFloat() < .0500f)
