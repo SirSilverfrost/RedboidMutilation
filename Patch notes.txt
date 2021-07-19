@@ -1,5 +1,17 @@
+V.0.6 The Sky High Update
+-Added Scarab Fishing Pole.
+-Added Fledgling Wings.
+-Added a recipe for all Tombstone variants.
+-Added a recipe for Guide To Plant Fiber Cordage.
+-Added a recipe for Living Loom.
+-Added a recipe for all Living Wood/Leaf Wands.
+-Added a recipe for Climbing Claws and Shoe Spikes.
+-Added a recipe for Bone Welder.
+-Added a recipe for Anklet Of The Wind.
+-Removed the Hotline Fishing Hook recipe.
+
 V.0.5  Terra Update
--Added the Terra item line.
+-Added the Terra item line and buffed slightly the Rusted Hamaxe.
 
 V.0.4  + Beautiful Update +
 -Added 23 Vanity items.
