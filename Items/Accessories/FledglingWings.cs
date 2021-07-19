@@ -9,7 +9,7 @@ namespace RedboidMutilation.Items.Accessories
 	{
 		public override void SetStaticDefaults()
 		{
-			Tooltip.SetDefault("This is a modded wing.");
+			Tooltip.SetDefault("'These wings look very frail, they might not be able to fly very far'");
 		}
 
 		public override void SetDefaults()
