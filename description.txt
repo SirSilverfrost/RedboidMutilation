@@ -2,9 +2,9 @@ Redboid Mutilation adds multiple recipes to help large servers and a few other c
 
 [i:3459] [c/5ec4ff:The Celestial Pillars drop Treasure Bags.]
 [i:3459] [c/5ec4ff:New Celestial Vanity Masks.]
-[i:3032] [c/e6d32e:A recipe for the Super Absorbant Sponge.] 
-[i:2422]  [c/fa6e23:A recipe for the Hotline Fishing Hook.] 
-[i:50] [c/1adbb1:A recipe for the Magic Mirror.] 
+[i:3032] [c/e6d32e:A recipe for the Super Absorbant Sponge.]
+[i:2422]  [c/fa6e23:A recipe for the Hotline Fishing Hook.]
+[i:50] [c/1adbb1:A recipe for the Magic Mirror.]
 [i:3085] [c/ffff33:A recipe for the Golden Lockbox.]
-[i:1006] [c/16cc50:A recipe to recycle Chlorophyte Armor.]
+[i:1006] [c/16cc50:A to recycle Chlorophyte Armor.]
 -And more!
